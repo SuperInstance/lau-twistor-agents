@@ -1,0 +1,15 @@
+[package]
+name = "lau-twistor-agents"
+version = "0.1.0"
+edition = "2021"
+description = "Penrose's twistor theory for agents — encoding spacetime events as complex geometric objects"
+license = "MIT"
+
+[dependencies]
+nalgebra = { version = "0.33", features = ["serde-serialize"] }
+num-traits = "0.2"
+serde = { version = "1.0", features = ["derive"] }
+num-complex = { version = "0.4", features = ["serde"] }
+
+[dev-dependencies]
+approx = "0.5"
